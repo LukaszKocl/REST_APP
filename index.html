@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rest - książki</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form method="POST" action="">
+    <label>Autor:
+        <input type="text" name="author">
+    </label></br>
+    <label>Tytuł:
+        <input type="text" name="title">
+    </label></br>
+        <label>ISBN
+        <input type="text" name="isbn">
+    </label></br>
+        <label>Wydawca
+        <input type="text" name="publisher">
+    </label></br>
+    <label>Gatunek
+        <select name="genres">
+            <option value="1">Romans</option>
+            <option value="2">Obyczajowa</option>
+            <option value="3">Sci-fi i fantasy</option>
+            <option value="4">Literatura faktu</option>
+            <option value="5">Popularnonaukowa</option>
+            <option value="6">Poradnik</option>
+            <option value="7">Kryminał, sensacja</option>
+        </select>
+    </label></br>
+    <button type="button">DODAJ</button>
+</form>
+
+<p>LISTA KSIĄŻĘK</p>
+<div id="container">
+    <!--
+    <div id="position">
+        <div id="book"> Książka 1</div>
+        <div class="details" id="details">asdasd</div>
+    </div>
+    <br>-->
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app_new.js"></script>
+
+</body>
+</html>
